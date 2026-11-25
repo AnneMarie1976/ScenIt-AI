@@ -17,7 +17,7 @@ st.set_page_config(page_title="ScenIt", page_icon="🎬", layout="centered")
 if "history" not in st.session_state:
     st.session_state.history = []
 
-# 3. Egen CSS för din mörka neon-design
+# 3. Egen CSS för den mörka neon-design
 st.markdown("""
 <style>
     .stApp { background-color: #0B0B0E; color: #FFFFFF; }
