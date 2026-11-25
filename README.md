@@ -14,7 +14,7 @@ AI-motor: Google Gemini API (`google-genai`)
 Bildhantering: Pillow (PIL)
 
 🚀 Kom igång lokalt
-1. Klona detta repository: `git clone https://github.com[DITT-ANVÄNDARNAMN]/ScenIt-AI.git`
+1. Klona detta repository: `git clone https://github.com/AnneMarie1976/ScenIt-AI.git`
 2. Installera beroenden: `pip install -r requirements.txt`
 3. Lägg in din egen Google AI Studio API-nyckel i `app_scenit.py`.
 4. Starta appen: `streamlit run app_scenit.py`
