@@ -1,20 +1,21 @@
-🎬 ScenIt – AI Movie & Scene Identifier
+🎬 ScenIt – AI Scene Identifier (Core Demo)
 
-"ScenIt" är en interaktiv webbapplikation byggd i Python och Streamlit som fungerar som ett "Shazam för film". Genom att använda multimodal AI (Computer Vision) analyserar appen skärmbilder eller korta videoklipp för att identifiera vilken film eller TV-serie scenen kommer ifrån.
+ScenIt is an interactive web application built in Python and Streamlit that acts as a "Shazam for movies." Using multimodal AI (Computer Vision), it analyzes screenshots to identify the movie or TV show.
 
-✨ Funktioner
-📸 Bild- & Videoanalys: Stöd för att ladda upp både skärmdumpar (PNG/JPG) och korta videoklipp (MP4/MOV).
-🛡️ Inbyggd Fallback-logik: Automatisk växling mellan olika Gemini-modeller vid hög serverbelastning (503-hantering) för hög driftsäkerhet.
-🕒 Sessionshistorik: Sparar tidigare identifierade scener i ett mörkt, användarvänligt neon-gränssnitt.
+🔒 Note on Code Visibility: This public repository contains a simplified core demo of the image-recognition logic for portfolio purposes. The full version—including custom dark-mode neon UI, short video clip analysis, session history, and multi-model fallback handling—is kept private.
 
-🛠️ Teknikstack
-Språk: Python
-Frontend / UI: Streamlit & Custom CSS (Dark Mode)
-AI-motor: Google Gemini API (`google-genai`)
-Bildhantering: Pillow (PIL)
+✨ Demo Features
+📸 Image Analysis: Upload screenshots (PNG/JPG) to identify movie titles, release years, and scene context.
+⚡ Lightweight UI: Clean and fast web interface built with Streamlit.
 
-🚀 Kom igång lokalt
-1. Klona detta repository: `git clone https://github.com/AnneMarie1976/ScenIt-AI.git`
-2. Installera beroenden: `pip install -r requirements.txt`
-3. Lägg in din egen Google AI Studio API-nyckel i `app_scenit.py`.
-4. Starta appen: `streamlit run app_scenit.py`
+🛠️ Tech Stack
+Language: Python
+Frontend / UI: Streamlit
+AI Engine: Google Gemini API (`google-genai`)
+Image Processing: Pillow (PIL)
+
+🚀 Run Locally
+1. Clone this repository: `git clone https://github.com/AnneMarie1976/ScenIt-AI.git`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Add your own Google AI Studio API key in `App_ScenIt.py`.
+4. Start the app: `streamlit run App_ScenIt.py`
